@@ -9,11 +9,11 @@ def ex41(x,y):
 print(ex41(0, 1)) 
 
 def ex43(x,y):
-    if x**2 + y**2 <=4 and y>= 3*x / 4:
+    if x**2 + y**2 <=4 and y<= 3*x / 4:
         z = x**2 + 4
     else:
-        z = 5*x
-    return z
+        z = 5*x 
+    return z 
 print(ex43(1,2))
 
 
@@ -32,7 +32,7 @@ def ex47(x,y):
     else:
         z = 0 
     return z
-print(ex47(5,3))
+print(ex47(5,3)) 
 
 
 def ex49(x,y):
