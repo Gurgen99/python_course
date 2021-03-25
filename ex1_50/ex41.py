@@ -25,7 +25,7 @@ def ex45(x,y):
     return z
 print(ex45(1,3))
 
-
+ 
 def ex47(x,y):
     if y<= x+1 and y<= -x/2 + 1 and y>=0:
         z = math.sin(x)
