@@ -16,6 +16,6 @@ def ex304(arr):
             x.append(a)
     return x
 
-
+ 
 print(ex301(99))
 print(ex304(100))
