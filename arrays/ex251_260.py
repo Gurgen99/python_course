@@ -19,13 +19,12 @@ def ex253(arr):
 
 
 def ex256(arr):
-    min = arr[0]
+    min = 0
     s = 0
     for i in range(len(arr)):
-        if arr[i]<min:
-            min = arr[i]
-            ind = i
-    s= min+ ind
+        if arr[i] < arr[min]:
+            min = i
+    s = min + arr[min]
     return s
 
 
