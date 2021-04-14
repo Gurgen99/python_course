@@ -23,8 +23,8 @@ def ex452(matrix):
 
 def ex453(a,b):
     y=[] 
-    s=0 
     for arr in matrix:
+        s=0
         for i in arr:
             if i>=a and i<=b:
                 s+=i
@@ -34,8 +34,8 @@ def ex453(a,b):
 
 def ex454(matrix):
     b=[]
-    s = 0
     for arr in matrix:
+        s=0
         for i in arr:
             s+=i**2
         b.append(s)
@@ -44,8 +44,8 @@ def ex454(matrix):
 
 def ex457(matrix):
     b = []
-    s = 0
     for arr in matrix:
+        s=0
         for i in arr:
             if i % 2 == 1:
                 s+=i
