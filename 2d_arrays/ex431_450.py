@@ -23,7 +23,7 @@ def ex431(matrix):
     return t 
 
 
-def ex433(a,b):
+def ex433(a,b,matrix):
     t = 0
     for i in range(len(matrix)-1):
         for j in range(len(matrix)-1-i):
@@ -83,7 +83,7 @@ def ex443(matrix):
     return t
 
 
-def ex445(k):
+def ex445(k,matrix):
     t = 0
     for i in range(1,len(matrix)):
         for j in range(0,i):
@@ -92,7 +92,7 @@ def ex445(k):
     return t
 
 
-def ex447(a):
+def ex447(a,matrix):
     s = 1
     for i in range(len(matrix)):
         for j in range(len(matrix)-i-1,len(matrix)):

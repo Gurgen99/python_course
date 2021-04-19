@@ -1,10 +1,13 @@
 import random
+
+
 def generate_arr(n):
     arr = []
     for i in range(n):
-        a = random.randint(-1,30)
+        a = random.randint(-1, 30)
         arr.append(a)
     return arr
+
 
 def generate_matrix(n, m):
     matrix = []
@@ -14,30 +17,30 @@ def generate_matrix(n, m):
 
 
 def ex452(matrix):
-    b =[]
+    b = []
     for arr in matrix:
-            k = (arr[0]**2) + (arr[-1]**2)
-            b.append(k)
+        k = (arr[0]**2) + (arr[-1]**2)
+        b.append(k)
     return b
 
 
-def ex453(a,b):
-    y=[] 
+def ex453(a, b, matrix):
+    y = []
     for arr in matrix:
-        s=0
+        s = 0
         for i in arr:
-            if i>=a and i<=b:
-                s+=i
-        y.append(s)      
+            if i >= a and i <= b:
+                s += i
+        y.append(s)
     return y
 
 
 def ex454(matrix):
-    b=[]
+    b = []
     for arr in matrix:
-        s=0
+        s = 0
         for i in arr:
-            s+=i**2
+            s += i**2
         b.append(s)
     return b
 
@@ -45,20 +48,18 @@ def ex454(matrix):
 def ex457(matrix):
     b = []
     for arr in matrix:
-        s=0
+        s = 0
         for i in arr:
             if i % 2 == 1:
-                s+=i
+                s += i
         b.append(s)
-    return b       
+    return b
 
 
 matrix = generate_matrix(3, 3)
 for vec in matrix:
-   print(vec)
+    print(vec)
 print(ex452(matrix))
-print(ex453(4,15))
+print(ex453(4, 15))
 print(ex454(matrix))
 print(ex457(matrix))
-
-
