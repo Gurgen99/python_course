@@ -14,7 +14,7 @@ def generate_matrix(n, m):
     return matrix
 
 
-def ex421(k):
+def ex421(k,matrix):
     y = []
     for i in range(1,len(matrix)):
         for j in range(0,i):
@@ -44,7 +44,7 @@ def ex425(matrix):
     return t
 
 
-def ex427(k):
+def ex427(k,matrix):
     s = 1
     for i in range(len(matrix)):
         for j in range(len(matrix)-i):
@@ -61,7 +61,6 @@ def ex429(matrix):
             if matrix[i][j] % k == 2:
                 t+=1
     return t
-
 
 
 matrix = generate_matrix(5, 5)
