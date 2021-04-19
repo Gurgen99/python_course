@@ -76,16 +76,16 @@ def ex660(s1):
     return k
 
 
-def ex664(valodik):
+def ex664(v):
     a = 0
     b = 0
     k = False
-    for i in range(len(valodik)):
-        if valodik[i] == "c":
+    for i in range(len(v)):
+        if v[i] == "c":
             a += 1
-        elif valodik[i] == "d":
+        elif v[i] == "d":
             b += 1
-        if valodik[i] > "c":
+        if v[i] > "c":
             k = True
     if k == True:
         return a
@@ -103,17 +103,17 @@ def ex666(t):
 s1 = generate_str(14)
 s2 = generate_str(14)
 s3 = generate_str(11)
-# print(s1)
-# print(s2)
-# print(ex646(s1))
-# s = "ahsakx02000000"
-# print(s, "  ", ex648(s))
-# print(ex650(s1, s2))
-# print(ex652(s1, s2))
-# print(ex654(s1))
-# print(ex656(s1))
-# print(ex657(s1))
-# print(ex660(s1))
-# v = "abababab"
-# print(ex664(v))
+print(s1)
+print(s2)
+print(ex646(s1))
+s = "ahsakx02000000"
+print(s, "  ", ex648(s))
+print(ex650(s1, s2))
+print(ex652(s1, s2))
+print(ex654(s1))
+print(ex656(s1))
+print(ex657(s1))
+print(ex660(s1))
+v = "abababab"
+print(ex664(v))
 print(ex666(s3), "   " ,s3)
