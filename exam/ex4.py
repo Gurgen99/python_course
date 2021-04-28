@@ -6,4 +6,4 @@ for i in range(len(s)):
 for i in range(t,len(s)):
     if s[i]=="z":
         x+=1
-print(x)
+print(x) 
