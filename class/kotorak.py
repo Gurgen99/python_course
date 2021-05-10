@@ -32,4 +32,7 @@ c = a + b
 d = a - b
 e = a * b 
 f = a / b 
+print(c.hamarich,c.haytarar)
+print(d.hamarich,d.haytarar)
+print(e.hamarich,e.haytarar)
 print(f.hamarich,f.haytarar)
