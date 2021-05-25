@@ -48,7 +48,7 @@ def ex300(k):
 print(a)
 print(ex282)
 print(ex284(-10,10))
-print(ex286
+print(ex286)
 print(ex288(a))
 print(ex290)
 print(ex292)
