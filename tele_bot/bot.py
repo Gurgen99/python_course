@@ -60,18 +60,6 @@ def error(update, context):
     logger.warning('Update "%s" caused error "%s"', update, context.error)
 
 
-# def hashvark(update, context):
-#     a = update.message.text.split(" ")
-#     if a[0] == "usd":
-#         b = int(a[1]) * 517
-#     elif a[0] == "rub":
-#         b = int(a[1]) * 7
-#     elif a[0] == "eur":
-#         b = int(a[1]) * 630
-#     elif a[0] == "gbp":
-#         b = int(a[1]) * 727
-
-
 def main():
     updater = Updater(
         "1749720914:AAGYd6Mzq5XkSaqP1Nm0BIOs2Mlixl1MhvI", use_context=True)
